@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
         - name: argocd-demo
-          image: nginx:1.27
+          image: kailash0328/custom-nginx-app:v1
           ports:
-            - containerPort: 3000
+            - containerPort: 80
           resources:
             requests:
               cpu: "100m"
